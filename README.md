@@ -11,4 +11,4 @@ There are 3 discrete boards in this repository:
 
 * Buffered 50-Way - Buffers address, data, clock and selected control lines with external input on Pin 50 'BufDir'. The BufDir signal is intended to be driven low by any given external device select signal. Each select signal must be connected via a logic IC, or schottky diode e.g. BAT85, to the BufDir input. Decoding of the select signals is expected to be 'one-hot' and handled by the expansion peripheral(s). This will allow the buffered interface board to correctly set the direction of the read data signals.
 
-Note the conventional 50-way header pinout is 'reversed' on this design such that pin 1 corresponds to the leftmost pins on the IDC header, this was a concious choice in order to create more of the 1:1 connection with the Ace Bus. 
+Note the conventional 50-way header pinout is 'reversed' on this design such that pin 1 corresponds to the leftmost pins on the IDC header, this was a concious choice in order to create more of a 1:1 connection with the Ace Bus. 
