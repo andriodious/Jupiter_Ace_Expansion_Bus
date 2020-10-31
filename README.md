@@ -3,7 +3,7 @@ Provides a selection of Adapter boards for Jupiter Ace Bus Expansion
 
 Created in KiCAD with Gerber files included.
 
-There are 3 discrete boards in this backage:
+There are 3 discrete boards in this repository:
 
 * Ace to 50-Way - Adapts the Jupiter Ace external expansion bus to a 50-Way IDC header. 
 
